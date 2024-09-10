@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "A Novel Federated Meta-Learning Approach for Discriminating Sedentary Behavior From Wearable Data"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'Characterizing and monitoring patient activities through time series data is critical for identifying lifestyle patterns that may impact health outcomes. Sedentary behavior is a significant concern due to its association with various health risks. This study introduces a lightweight supervised classifier for healthcare applications based on ordinal pattern transformation to detect sedentary behavior in federated learning scenarios. Our hypothesis is grounded on the idea that sedentary behavior exhibits distinct dynamics compared to other activities, and information descriptors derived from the transformation of ordinal patterns effectively capture these differences. Next, we proceed with the federated learning training. We train a neural network-based encoder locally and send the local models to a server. The federated learning process updates the encoder weights based on the encoded representations of the clients’ data, enabling the model to learn from different participants. Finally, we personalize the model for the specific task of classifying sedentary behavior. Our approach utilizes a meta-learning framework, incorporating a Siamese neural network to learn a similarity space. We fine-tune the model in this step by further training the last neural network layer. This fine-tuning allows the model to adapt and specialize in accurately classifying sedentary behavior. We carry out a comprehensive analysis to support our hypothesis. We also extensively validated our proposal by comparing it with other methods over five different datasets. We obtain the best results using a smaller ML model compared with the best approaches in the literature. Specifically, our model has 78.73% times fewer parameters and consumes 48.67% times less energy than the best result in the literature.'
+date: 2024-07-01
+venue: 'IEEE Internet of Things Journal'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10578042'
+citation: 'P. H. Barros, J. C. Guevara, L. Villas, D. Guidoni, N. L. S. da Fonseca and H. S. Ramos, "A Novel Federated Meta-Learning Approach for Discriminating Sedentary Behavior From Wearable Data," in IEEE Internet of Things Journal, doi: 10.1109/JIOT.2024.3420891.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
